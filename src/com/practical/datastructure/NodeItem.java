@@ -1,10 +1,10 @@
 package com.practical.datastructure;
 
-public class Node {
+public class NodeItem {
 	int data;
-	Node next;
+	NodeItem next;
 
-	Node(int i) {
+	NodeItem(int i) {
 		data = i;
 		next = null;
 

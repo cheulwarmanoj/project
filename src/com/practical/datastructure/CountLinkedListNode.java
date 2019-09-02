@@ -2,10 +2,10 @@ package com.practical.datastructure;
 
 public class CountLinkedListNode {
 
-	public Node head;
+	public NodeItem head;
 
 	public void push(int newData) {
-		Node newNode = new Node(newData);
+		NodeItem newNode = new NodeItem(newData);
 		newNode.next = head;
 		head = newNode;
 	}
@@ -13,7 +13,7 @@ public class CountLinkedListNode {
 	// count the nodes in the list
 	public int getCount() {
 		int count = 0;
-		Node temp = head;
+		NodeItem temp = head;
 		while (temp != null) {
 			count++;
 			temp = temp.next;
