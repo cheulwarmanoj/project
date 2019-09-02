@@ -10,7 +10,7 @@ public class CountLinkedListNode {
 		head = newNode;
 	}
 
-	// count the nodes
+	// count the nodes in the list
 	public int getCount() {
 		int count = 0;
 		Node temp = head;
